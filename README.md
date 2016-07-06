@@ -10,3 +10,6 @@ METEOR@1.2.1
 #### Configuration
 In order to use this source code, you need to change the cert configuration in `server > server.js` file:
 ![AWS-IoT-Home-Security-Model-SW Cert Configuration](https://raw.githubusercontent.com/AaronKow/AWS-IoT-Home-Security-Model-SW/master/public/config.jpg)
+
+#### License
+The license of this project is under MIT License, see the LICENSE for more information.
