@@ -1,0 +1,18 @@
+<template name="login">
+    <div class="animated text-center fadeInDown">
+        <h1 class="logo visible-lg" style="font-size: 70px;">IoT Home Security Model</h1>
+        <h1 class="logo visible-md" style="font-size: 60px;">IoT Home Security Model</h1>
+        <h1 class="logo visible-sm" style="font-size: 40px;">IoT Home Security Model</h1>
+        <h1 class="logo visible-xs" style="font-size: 30px;">IoT Home Security Model</h1>
+        <div class="middle-box loginscreen">
+            <div>
+                <h3>Welcome!</h3>
+                <p>This platform serve as a monitoring system for your water usage in home. There's more features to check out, let's login.</p>
+                <div class="loginForm">
+                    {{> atForm state='signIn'}}    
+                </div>
+                <p class="m-t"> <small>&copy; 2015 IoT Home Security Model | Created by <a href="https://twitter.com/_aaronkow" target="_blank">@_aaronkow</a></small> </p>
+            </div>
+        </div>
+    </div>
+</template>

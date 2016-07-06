@@ -1,0 +1,10 @@
+.loading-message {
+  color: #B2E0FF;
+  font-size: 25px;
+  font-weight: 300;
+  font-family: sans-serif;
+}
+
+.sk-spinner-cube-grid .sk-cube {
+  background-color: #B2E0FF;
+}

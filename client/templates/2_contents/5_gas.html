@@ -1,0 +1,38 @@
+<template name="gasSensor">
+    <div class="col-sm-10 col-md-10">
+        <div class="row animated fadeIn">
+            <div class="col-sm-12 col-md-12 content">
+                <div class="panel panel-default">
+                    <div class="panel-heading"><b>Gas Sensor Dashboard</b></div>
+                    <div class="panel-body">
+                        {{> gasMonitor}}
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</template>
+
+<template name="gasMonitor">
+    <div>
+        <h1>Real-Time Monitoring for Gas Sensor with AWS IoT</h1><br><br>
+        <p>
+            Real-Time Configuration: 
+            <select id="realTimeConfigure">
+              <option value="all">From the beginning of time</option>
+              <option value="10">Within 10 seconds</option>
+              <option value="30">Within 30 seconds</option>
+              <option value="60">Within 1 minute</option>
+              <option value="300">Within 5 minutes</option>
+            </select>
+            <button id="playRealTime" style="margin-left: 10px" type="button" class="btn btn-default btn-sm"><i class="fa fa-play"></i></button>
+        </p>
+    </div>
+
+    <div id="marker"></div>
+    <div id="chart_container">
+        <div id="y_axis"></div>
+        <div id="realTimeMonitor"></div>
+    </div>
+    <div id="legend"></div>
+</template>

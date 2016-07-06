@@ -1,0 +1,26 @@
+<template name="_sidebar">
+	<div class="col-sm-2 col-md-2 sidebar" style="max-height: 100%"><!-- adjust the height here for proper setting margin in content -->
+		<div class="row">
+			<div class="absolute-wrapper"> </div>
+			<!-- Menu -->
+			<div class="side-menu">
+				<nav class="navbar navbar-default" role="navigation">
+					<!-- Main Menu -->
+					<div class="side-menu-container">
+						<ul class="nav navbar-nav">
+							<li class="{{isActivePath '/ultrasonic-sensor'}}"><a href="/ultrasonic-sensor"><span class="fa fa-expand"></span> Ultrasonic Sensor</a></li>
+							<li class="{{isActivePath '/current-sensor'}}"><a href="/current-sensor"><span class="fa fa-bolt"></span> Current Sensor</a></li>
+							<li class="{{isActivePath '/vibration-sensor'}}"><a href="/vibration-sensor"><span class="fa fa-chain-broken"></span> Vibration Sensor</a></li>
+							<li class="{{isActivePath '/water-sensor'}}"><a href="/water-sensor"><span class="fa fa-tint"></span> Water Sensor</a></li>
+							<li class="{{isActivePath '/gas-sensor'}}"><a href="/gas-sensor"><span class="fa fa-fire-extinguisher"></span> Gas Sensor</a></li>
+							<li class="{{isActivePath '/temperature'}}"><a href="/temperature"><span class="fa fa-cloud"></span> Temperature</a></li>
+							<li class="{{isActivePath '/humidity'}}"><a href="/humidity"><span class="fa fa-cloud"></span> Humidity</a></li>
+							<li class="{{isActivePath '/nfc-state'}}"><a href="/nfc-state"><span class="fa fa-life-ring"></span> NFC State</a></li>
+						</ul>
+					</div><!-- /.navbar-collapse -->
+				</nav>
+
+			</div>
+		</div>  		
+	</div>
+</template>
